@@ -1,8 +1,9 @@
-# Gekko
+# Gekko with integrated quasar UI
 
-## donate if you like this fork:
+*donate if you like this fork:*
 If you like the ported UI, drop me some coins for coffee ;)
-BTC: 191hR9AftcrGH2Vb29ogPBoUjFowsvAMrk
+
+*BTC: 191hR9AftcrGH2Vb29ogPBoUjFowsvAMrk*
 
 ![Gordon Gekko](http://mikevanrossum.nl/static/gekko.jpg)
 

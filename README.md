@@ -1,4 +1,8 @@
-# Gekko [![npm](https://img.shields.io/npm/dm/gekko.svg)]() [![Build Status](https://travis-ci.org/askmike/gekko.png)](https://travis-ci.org/askmike/gekko) [![Build status](https://ci.appveyor.com/api/projects/status/github/askmike/gekko?branch=stable&svg=true)](https://ci.appveyor.com/project/askmike/gekko)
+# Gekko
+
+## donate if you like this fork:
+If you like the ported UI, drop me some coins for coffee ;)
+BTC: 191hR9AftcrGH2Vb29ogPBoUjFowsvAMrk
 
 ![Gordon Gekko](http://mikevanrossum.nl/static/gekko.jpg)
 

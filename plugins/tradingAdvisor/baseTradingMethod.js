@@ -177,7 +177,7 @@ Base.prototype.propogateTick = function(candle) {
 
   const indicators = {};
   _.each(this.indicators, (indicator, name) => {
-    indicators[name] = indicator.result;
+    indicators[name] = typeof indicator.result === 'object' ? { ...indicator.result } : indicator.result;
   });
   
   _.each(this.tulipIndicators, (indicator, name) => {

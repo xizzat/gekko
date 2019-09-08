@@ -123,7 +123,6 @@ PaperTrader.prototype.now = function () {
 }
 
 PaperTrader.prototype.processAdvice = function (advice) {
-	console.log(this)
 	// Don't process advice if current and last would cancel out each other (while waiting for volume)
 	if (this.waitForVolume && advice.recommendation != this.previousAdvice.recommendation) {
 		this.waitForVolume = false;

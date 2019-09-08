@@ -732,6 +732,20 @@ methods.stoch = {
     }
 }
 
+methods.stochrsi = {
+    requires: ['optInPeriod'],
+    create: (params) => {
+        verifyParams('stochrsi', params);
+
+        return (data, callback) => execute(callback, {
+            indicator: tulind.indicators.stochrsi,
+            inputs: [data.close],
+            options: [params.optInPeriod],
+            results: ['stochRsi'],
+        });
+    }
+}
+
 methods.sum = {
     requires: ['optInTimePeriod'],
     create: (params) => {

@@ -1,12 +1,8 @@
-feeMaker = 0.25
-feeTaker = 0.25
+feeMaker = 0.00
+feeTaker = 0.20
 feeUsing = 'maker'
 slippage = 0.05
 
 [simulationBalance]
-asset = 1
-currency = 100
-
-[tuning]
-# get volume from database per candle and multiply by candlesize in minutes!
-volume = 10000000
+asset = 0
+currency = 1800
